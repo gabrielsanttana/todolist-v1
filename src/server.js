@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
     res.render("todolist", {currentDay: currentDay, items: items});
 });
 
-app.post("/", (req, res) => {
+app.post("/", (req, res) => { 
     const { item } = req.body;
 
     items.push(item);
