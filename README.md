@@ -27,7 +27,7 @@
 $ git clone https://github.com/gabrielsanttana/todolist-v1
 $ cd todolist-v1
 $ npm install
-$ node src/server.js
+$ npm start
 ```
 
 The application will be up on [http://localhost:3333](http://localhost:3333)
